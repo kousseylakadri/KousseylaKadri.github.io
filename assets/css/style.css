@@ -444,6 +444,7 @@ section {
 .skills .progress-bar-wrap {
   background: #dce8f8;
   height: 10px;
+  border-radius: 20px;
 }
 
 .skills .progress-bar {
