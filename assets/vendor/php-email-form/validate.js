@@ -50,7 +50,7 @@
   });
 
   function php_email_form_submit(thisForm, action, formData) {
-    fetch(action, {
+    fetch('https://kousseylakadri.github.io/',action, {
       method: 'POST',
       body: formData,
       headers: {'X-Requested-With': 'XMLHttpRequest'}
